@@ -10,8 +10,6 @@ import android.support.v4.content.ContextCompat;
 public class PermissionHelper {
     public final static int MEDIA_PERMISSIONS_REQUEST = 0;
     public final static String[] mediaPermissions = {
-            Manifest.permission.WRITE_EXTERNAL_STORAGE,
-            Manifest.permission.READ_EXTERNAL_STORAGE
     };
 
     public static boolean isMediaPermissionsGranted(Context context) {
