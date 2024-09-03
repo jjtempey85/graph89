@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdk 34
     defaultConfig {
-        applicationId "com.Bisha.TI89EmuDonation"
+        applicationId 'com.Tempey.TI89Emu'
         minSdkVersion 28
         targetSdk 34
         versionCode 1133
