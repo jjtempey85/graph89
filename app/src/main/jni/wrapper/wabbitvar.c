@@ -24,7 +24,9 @@
 #include <stdlib.h>
 #include <wabbit.h>
 #include <tilem.h>
-
+#include "string.h"
+#include <stdio.h>
+#include <ctype.h>
 const char self_test[] = "Self Test?";
 const char catalog[] = "CATALOG";
 const char txt73[] = "GRAPH  EXPLORER  SOFTWARE";

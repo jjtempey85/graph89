@@ -69,7 +69,7 @@ int hw_m68k_init(void)
     bkpts.mode = bkpts.type = bkpts.id = 0;
 
     // set trap on illegal instruction
-    ti68k_bkpt_add_exception(4);
+    //ti68k_bkpt_add_exception(4);
 
     // init instruction logging
     logger.pclog_size = 11;

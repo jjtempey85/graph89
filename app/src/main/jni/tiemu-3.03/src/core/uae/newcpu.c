@@ -20,6 +20,9 @@
 #include "memory.h"
 #include "newcpu.h"
 
+#include "romcalls.h"
+#include "handles.h"
+
 // tiemu begin
 #include "tilibs.h"
 #include "ti68k_def.h"

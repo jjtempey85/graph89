@@ -21,6 +21,7 @@
 #include <stdio.h>
 #include <tilem.h>
 #include <androidlog.h>
+#include "tiemuwrapper.h"
 
 
 JNIEXPORT jint JNICALL Java_com_graph89_emulationcore_EmulatorActivity_nativeTilemLoadImage(JNIEnv * env, jobject obj, jstring image_file)

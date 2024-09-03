@@ -30,6 +30,14 @@
 #include <tiemuwrapper.h>
 #include <androidlog.h>
 #include <string.h>
+#include <stdlib.h>
+#include <ti68k_int.h>
+#include <kbd.h>
+#include "ti_hw/m68k.h"
+#include "romcalls.h"
+#include "engine.h"
+#include "gscales.h"
+#include "dbus.h"
 
 extern CalcHandle*  calc_handle;
 extern int enable_grayscale;

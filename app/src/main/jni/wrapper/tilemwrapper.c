@@ -25,6 +25,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <stdbool.h>
 #include <wrappercommon.h>
 #include <tilemwrapper.h>
@@ -57,6 +58,10 @@ static void get_contrast_settings(unsigned int contrast, int *cbase, int *cfact)
 static char rom_file[512];
 static char sav_file[512];
 
+void tilem_keybufferPush(int item);
+int tilem_link_send_file(TilemCalcEmulator *emu, const char *filename,
+                         int slot, gboolean first, gboolean last);
+int sync_clock_tilem(TilemCalcEmulator *emu);
 
 void tilem_init()
 {

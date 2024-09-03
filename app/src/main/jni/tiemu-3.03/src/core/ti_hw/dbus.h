@@ -32,8 +32,9 @@
 int hw_dbus_init(void);
 int hw_dbus_reset(void);
 int hw_dbus_exit(void);
+int sync_clock(void);
 
-extern void    (*hw_dbus_reinit)	(void);
+        extern void    (*hw_dbus_reinit)	(void);
 extern void    (*hw_dbus_putbyte)	(uint8_t arg);
 extern uint8_t (*hw_dbus_getbyte)	(void);
 extern int     (*hw_dbus_checkread)	(void);

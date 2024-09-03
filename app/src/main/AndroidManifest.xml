@@ -13,7 +13,8 @@
         android:requestLegacyExternalStorage="true"
         android:allowBackup="true">
         <activity
-            android:name="com.graph89.emulationcore.EmulatorActivity">
+            android:name="com.graph89.emulationcore.EmulatorActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

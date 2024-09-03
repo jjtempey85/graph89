@@ -23,6 +23,7 @@
 #include <wabbit.h>
 #include <tilem.h>
 #include <stdlib.h>
+#include <string.h>
 
 #define FLASH_PAGES(calc)  ((calc)->hw.romsize / 0x4000)
 #define FALSE 0

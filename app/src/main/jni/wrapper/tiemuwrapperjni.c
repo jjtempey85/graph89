@@ -19,8 +19,8 @@
 
 
 #include <jni.h>
-#include <wrappercommon.h>
-#include <tiemuwrapper.h>
+#include "wrappercommon.h"
+#include "tiemuwrapper.h"
 #include <androidlog.h>
 
 extern JNIEnv * DbusJNIenv;
