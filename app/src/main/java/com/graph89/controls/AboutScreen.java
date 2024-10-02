@@ -28,8 +28,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.Bisha.TI89EmuDonation.BuildConfig;
-import com.Bisha.TI89EmuDonation.R;
+import com.Tempey.TI89Emu.BuildConfig;
+import com.Tempey.TI89Emu.R;
 import com.graph89.emulationcore.EmulatorActivity;
 
 public class AboutScreen

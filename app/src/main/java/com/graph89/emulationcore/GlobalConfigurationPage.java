@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.PreferenceActivity;
 
-import com.Bisha.TI89EmuDonation.R;
+import com.Tempey.TI89Emu.R;
 import com.graph89.common.ConfigurationHelper;
 import com.graph89.controls.SeekBarPreference;
 

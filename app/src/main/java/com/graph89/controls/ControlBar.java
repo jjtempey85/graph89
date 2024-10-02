@@ -29,7 +29,7 @@ import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
 
-import com.Bisha.TI89EmuDonation.R;
+import com.Tempey.TI89Emu.R;
 
 public class ControlBar
 {

@@ -10,6 +10,8 @@ import android.support.v4.content.ContextCompat;
 public class PermissionHelper {
     public final static int MEDIA_PERMISSIONS_REQUEST = 0;
     public final static String[] mediaPermissions = {
+            Manifest.permission.WRITE_EXTERNAL_STORAGE,
+            Manifest.permission.READ_EXTERNAL_STORAGE
     };
 
     public static boolean isMediaPermissionsGranted(Context context) {
@@ -22,6 +24,8 @@ public class PermissionHelper {
     }
 
     public static void requestMediaPermissions(Activity context, int requestCode) {
-        ActivityCompat.requestPermissions(context, mediaPermissions, requestCode);
+        // no longer need to request filesystem permissions using API 33. Instead use
+        // an ACTION_OPEN_DOCUMENT intent to select the image
+        //ActivityCompat.requestPermissions(context, mediaPermissions, requestCode);
     }
 }

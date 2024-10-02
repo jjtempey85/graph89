@@ -60,7 +60,7 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.Bisha.TI89EmuDonation.R;
+import com.Tempey.TI89Emu.R;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.graph89.common.CalculatorInstance;

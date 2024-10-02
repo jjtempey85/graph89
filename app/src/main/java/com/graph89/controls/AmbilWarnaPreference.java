@@ -26,7 +26,7 @@ import android.preference.Preference;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.Bisha.TI89EmuDonation.R;
+import com.Tempey.TI89Emu.R;
 
 public class AmbilWarnaPreference extends Preference
 {

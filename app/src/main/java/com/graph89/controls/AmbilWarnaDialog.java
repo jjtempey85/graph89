@@ -29,7 +29,7 @@ import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import com.Bisha.TI89EmuDonation.R;
+import com.Tempey.TI89Emu.R;
 
 public class AmbilWarnaDialog
 {

@@ -29,7 +29,6 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.content.pm.PackageManager;
 import android.media.AudioManager;
 import android.os.Build;
 import android.os.Bundle;
@@ -44,9 +43,8 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
-import android.widget.Toast;
 
-import com.Bisha.TI89EmuDonation.R;
+import com.Tempey.TI89Emu.R;
 import com.graph89.common.BackwardCompatibility;
 import com.graph89.common.CalculatorInfoTI84;
 import com.graph89.common.CalculatorInfoTI89;
@@ -192,14 +190,16 @@ public class EmulatorActivity extends Graph89ActivityBase
 	}
 
 	public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
-		if (requestCode == PermissionHelper.MEDIA_PERMISSIONS_REQUEST) {
-			for (int i = 0; i < permissions.length; i++) {
-				if (grantResults[i] != PackageManager.PERMISSION_GRANTED) {
-					Toast.makeText(this, "Required storage permission not granted", Toast.LENGTH_LONG).show();
-					finish();
-				}
-			}
-		}
+		// no longer need to request filesystem permissions using API 33. Instead use
+		// an ACTION_OPEN_DOCUMENT intent to select the image
+//		if (requestCode == PermissionHelper.MEDIA_PERMISSIONS_REQUEST) {
+//			for (int i = 0; i < permissions.length; i++) {
+//				if (grantResults[i] != PackageManager.PERMISSION_GRANTED) {
+//					Toast.makeText(this, "Required storage permission not granted", Toast.LENGTH_LONG).show();
+//					finish();
+//				}
+//			}
+//		}
 	}
 
 	private void unbindDrawables(View view)

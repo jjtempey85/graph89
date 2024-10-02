@@ -19,7 +19,7 @@
 
 package com.graph89.controls;
 
-import com.Bisha.TI89EmuDonation.R;
+import com.Tempey.TI89Emu.R;
 
 import android.content.Context;
 import android.util.AttributeSet;
